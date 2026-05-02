@@ -2,22 +2,25 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 12 * * *"   # runs daily at stable time
+    - cron: "0 12 * * *"
   workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate snake
+      - name: Generate advanced snake
         uses: Platane/snk@v3
         with:
           github_user_name: WindStack-cmd
           outputs: |
-            dist/github-contribution-grid-snake-dark.svg?color_snake=8A2BE2&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+            dist/snake.svg?color_snake=00D4FF&color_snake_head=FFFFFF&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
-      - name: Push to output branch
+      - name: Deploy snake
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
