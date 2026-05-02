@@ -13,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate advanced snake
+      - name: Generate snake
         uses: Platane/snk@v3
         with:
           github_user_name: WindStack-cmd
           outputs: |
-            dist/snake.svg?color_snake=00D4FF&color_snake_head=FFFFFF&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+            dist/snake.svg?palette=github-dark
 
       - name: Deploy snake
         uses: peaceiris/actions-gh-pages@v4
