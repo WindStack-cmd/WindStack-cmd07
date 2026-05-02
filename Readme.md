@@ -105,21 +105,17 @@ I enjoy working with data, learning new algorithms, and building practical proje
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=WindStack-cmd&theme=github_dark" width="100%"/>
+  <img src="https://github-readme-stats-neon-zeta-55.vercel.app/api?username=WindStack-cmd&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github&title_color=00D4FF&icon_color=00D4FF&text_color=ffffff&bg_color=0D1117" height="180"/>
+  
+  <img src="https://github-readme-stats-neon-zeta-55.vercel.app/api/top-langs/?username=WindStack-cmd&layout=compact&langs_count=6&hide_border=true&title_color=00D4FF&text_color=ffffff&bg_color=0D1117" height="180"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=WindStack-cmd&theme=github_dark" height="180"/>
-  &nbsp;&nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=WindStack-cmd&theme=github_dark" height="180"/>
+  <img src="https://streak-stats.demolab.com?user=WindStack-cmd&theme=dark&hide_border=true&background=0D1117&ring=00D4FF&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=00D4FF&dates=ffffff&currStreakNum=ffffff&sideNums=ffffff" height="180"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=WindStack-cmd&hide_border=true&background=0D1117&ring=00D4FF&fire=00D4FF&currStreakLabel=00D4FF&sideLabels=00D4FF&dates=ffffff&currStreakNum=ffffff&sideNums=ffffff" height="180"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=WindStack-cmd&bg_color=0D1117&color=00D4FF&line=00D4FF&point=ffffff&hide_border=true" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=WindStack-cmd&bg_color=0D1117&color=00D4FF&line=00D4FF&point=ffffff&area=true&hide_border=true" width="100%"/>
 </p>
 
 ---
